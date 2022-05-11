@@ -1,0 +1,19 @@
+.Main {
+  display: flex;
+  height: 90vh;
+}
+
+//media query used for displaying map
+@media screen and (max-width: 600px) {
+  .Main {
+    flex-direction: column;
+  }
+  .Main .LocationList__container {
+    order: 1;
+    height: 45%;
+  }
+  .Main .mapboxgl-map {
+    width: 2px;
+    height: 2px;
+  }
+}

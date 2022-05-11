@@ -1,0 +1,12 @@
+.card-list
+{
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap:20px;
+}
+
+.but1{
+  text-align: center;
+}

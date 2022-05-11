@@ -1,0 +1,84 @@
+.newPost {
+    padding-top: 20px;
+}
+
+.newPostHeading {
+    text-align: center;
+    font-size: 30px;
+    color: teal;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 27px;
+}
+
+.newPostImage {
+    margin-left: 150px;
+    width: 80vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.newPostForm {
+    position: relative;
+}
+
+.newPostFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.newPostIcon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(121, 118, 118);
+    cursor: pointer;
+    font-size: 35px;
+    
+}
+
+.newPostInput {
+    font-size: 30px;
+    border: none;
+    width: 70vw;
+    padding: 20px;
+    height: 100px;
+}
+
+.newPostInput1 {
+    font-size: 30px;
+    // border: none;
+    width: 80vw;
+    padding: 20px;
+    height: 100px;
+    // margin-left: 500px;
+}
+.newPostInput:focus {
+    outline: none;
+}
+
+.newPostText {
+    font-size: 20px;
+    height: 20vh;
+}
+
+.newPostSubmit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+

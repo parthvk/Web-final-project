@@ -1,0 +1,121 @@
+.Landing__hero {
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2015/10/25/boston-at-dusk-wallpaper.jpg);  
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 100;
+}
+
+.Landing__hero_main {
+  color: #fff;
+  font-weight: 100;
+  font-size: 6em;
+  margin: 0.5em;
+  font-weight: bold;
+}
+
+.Landing__hero_secondary {
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.75em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Lato';
+}
+
+.Landing__form {
+  margin: 3em auto;
+}
+
+.Landing__form__label {
+  display: flex;
+  justify-content: center;
+}
+
+.Landing__form__submit {
+  background: none;
+  color: #fff;
+  margin: 0.5em 0.2em;
+  padding: 0.5em;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Landing__form__label {
+  margin-bottom: 1em;
+}
+
+.Landing__form__label div {
+  width: 100%;
+}
+
+.Landing__form__submit:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.Landing__form__label svg {
+  padding: 0.5em;
+  fill: #fff;
+  position: absolute;
+  transform: translateX(-2em);
+}
+
+.Landing__form__input {
+  background: rgba(255,255,255,0.7);
+  border: 3px solid white;
+  padding: 1em;
+  border-radius: 20px;
+  width: 30%;
+  min-width: 200px;
+}
+
+footer {
+  position: absolute;
+  font-size: 12px;
+  display: block;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .author {
+  color: #ddd;
+}
+
+footer .attribution {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .Landing__hero_main {
+    margin-top: 2em;
+    font-size: 3em;
+  }
+
+  .Landing__hero_secondary {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .Landing__hero_main {
+    margin: 0.3em 0 0.1em 0;
+    font-size: 3em;
+  }
+  .Landing__hero_secondary {
+    font-size: 0.95em;
+    font-weight: 600;
+  }
+  .Landing__form {
+    margin: 1em auto;
+  }
+
+  footer .author,
+  footer .attribution {
+    margin: 0.1em;
+  }
+}
+

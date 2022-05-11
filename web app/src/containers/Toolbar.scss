@@ -1,0 +1,22 @@
+
+//style for toolbar on the search venue 
+.Map__toolbar__container {
+  background-color: rgba(0,0,0,0.075);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+//media query for responsive web design
+@media screen and (max-width: 379px) {
+  .Map__toolbar__container {
+    justify-content: center;
+  }
+
+  .Map__toolbar__container .chip {
+    display: none;
+  }
+}

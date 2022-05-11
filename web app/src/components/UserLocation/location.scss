@@ -1,0 +1,60 @@
+
+
+.weather-temp{
+    padding-bottom:40px;
+    padding-left:60px;
+  }
+  
+  .weather-temp h1 , .weather-temp h4 , .weather-temp p{
+    padding-bottom: 10px;
+  }
+  
+  .weather-info p , .weather-info h2{
+    text-align:center;
+  }
+  
+  .user-weather{
+    color:#fff;
+    padding:30px;
+    border-radius: 10px;
+    border:1px solid #fff;
+  }
+  
+  .navbar{
+    background-color:#ddd;
+  }
+  
+  .mainImg{
+    padding-top:15px;
+  }
+  
+  .region{
+    margin-top:30px;
+  }
+  
+  .regioninput{
+    background:none;
+    border:none;
+    border-bottom:1px solid #fff;
+    padding:0 50px 0 0px;
+
+    border: 5px #0bd solid;
+  }
+  
+  .regioninput::placeholder{
+    font-family:Nunito;
+    font-weight:600;
+    font-size:1rem;
+    padding-left:0;
+    color: #ccc;
+  }
+
+  p{
+      color:white;
+  }
+
+  b{
+      color:white;
+  }
+  
+

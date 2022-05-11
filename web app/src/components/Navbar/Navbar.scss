@@ -1,0 +1,56 @@
+.NavbarItems{
+    background-color:#1fb9c4;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+// Duck Logo
+.logo{
+height:70px;
+width:70px;
+border-radius: 50%;
+cursor: pointer
+
+}
+
+// Title
+.navbar-logo{
+    color: rgb(18, 10, 90);
+    justify-self: start;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fa-react{
+    margin-left: 0.1rem;
+    font-size: 1.6rem;
+}
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    // margin-left: -200px;
+}
+
+.nav-item{
+    color: rgb(5, 79, 82);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-emphasis-style: bold;
+}
+
+.nav-item1{
+    color: rgb(5, 79, 82);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-emphasis-style: bold;
+    display: flex;
+}

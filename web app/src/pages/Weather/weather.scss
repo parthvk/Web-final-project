@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+  .mainconatiner{
+    background-color: rgba(2, 25, 26, 0.376);
+    width:100%;
+    height:80vh;
+    opacity: 80%;
+    font-family: 'Lato';
+    color:white;
+
+  }
+
+  .search{
+
+    display: flex;
+    justify-content: space-evenly;
+    // flex-wrap: wrap;
+
+  }
+  .placesearch{
+    align-items: center;
+    margin-left: 170px;
+    font-family: 'Lato';
+
+  }
+
+  .weather-temp h1, .weather-temp h4, .weather-temp p{
+    font-family: 'Lato';
+
+    color: white;
+}
+  
+
+
+
+.title{
+  font-weight: 100;
+font-family: 'Lato';
+}
+p,h2{
+  font-family: 'Lato';
+color: white;
+}
+b{
+  font-family: 'Lato';
+color: white;
+}
+
+.row{
+  font-family: 'Lato';
+  .weather-info{
+    color: azure;
+    b{
+      color: azure;
+    }
+  }
+}

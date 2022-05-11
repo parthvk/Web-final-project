@@ -1,0 +1,48 @@
+// City Name
+.topContent {
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.title{
+margin-top: 5%;   
+}
+
+.rating {
+
+    margin-top: 1%;
+    float: right;}
+.cardmedia {
+    z-index: 0;
+}
+.bookmark {
+z-index: 1;
+
+
+
+}
+.btnbookmark{
+
+height: 50px;
+width: 30px;
+}
+
+// CSS for weather
+
+.weatherCondition{
+
+    margin: 20px auto;
+  text-transform: capitalize;
+  font-size: 7px;
+  
+    font-size: 14px;
+}
+
+.addBlogs{
+
+    height: 5%;
+    width: 1%;
+    margin-left: 4%;
+}

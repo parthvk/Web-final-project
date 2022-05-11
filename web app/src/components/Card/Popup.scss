@@ -1,0 +1,34 @@
+// Css for all socia media
+.popup{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    width:300px;
+    height:200px;
+    background-color:rgba(212, 147, 147, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+// CSS for each social media element
+.innerpop {
+    
+    position:relative;
+    padding: 32px;
+    width:100%;
+    max-width: 640px;
+    background-color: #b9c8e6;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+
+}
+
+.innerpop .btnclose{
+
+    position: absolute;
+    border:none;
+
+}

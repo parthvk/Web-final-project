@@ -1,0 +1,19 @@
+.marker-icon {
+  cursor: pointer;
+  fill: #ffa500;
+  transition: 0.3s all;
+}
+
+.marker-icon:hover {
+  transform: scale(1.3);
+}
+
+.MyMarker {
+
+  transition: 1s all;
+}
+
+.MyMarker .active {
+  transform: scale(1.2);
+  fill: #ffff00;
+}
